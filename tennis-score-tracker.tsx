@@ -18,8 +18,8 @@ import {
 
 const TennisScoreTracker = () => {
   // Extended state
-  const [player1, setPlayer1] = useState({ name: 'Jones', totalGames: 24, totalSets: 4 });
-  const [player2, setPlayer2] = useState({ name: 'Klüter', totalGames: 26, totalSets: 4 });
+  const [player1, setPlayer1] = useState({ name: 'Rasmus', totalGames: 24, totalSets: 4 });
+  const [player2, setPlayer2] = useState({ name: 'Chris', totalGames: 26, totalSets: 4 });
   const [matches, setMatches] = useState([]);
   const [weather, setWeather] = useState({ temp: '4°', condition: 'Cloudy' });
   const [showCustomize, setShowCustomize] = useState(false);
